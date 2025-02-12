@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest.json",
+  "manifest_version": 3,
+  "name": "__MSG_BF2A362F7642__",
+  "description": "__MSG_8257DA041610__",
+  "background": {
+    "service_worker": "public/js/background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "public/page/index.html"
+  },
+  "commands": {
+    "close-tab": {
+      "description": "__MSG_C4E6C13D69EB__"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self'"
+  },
+  "default_locale": "en",
+  "icons": {
+    "16": "public/assets/icon16.png",
+    "32": "public/assets/icon32.png",
+    "48": "public/assets/icon48.png",
+    "128": "public/assets/icon128.png"
+  },
+  "options_page": "public/page/index.html",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "version": "1.0"
+}

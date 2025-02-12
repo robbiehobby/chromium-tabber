@@ -1,0 +1,110 @@
+{
+  "BF2A362F7642": {
+    "message": "Tabber"
+  },
+  "8257DA041610": {
+    "message": "A customizable empty new tab page and a last tab aware close tab shortcut."
+  },
+  "C4E6C13D69EB": {
+    "message": "Close Tab"
+  },
+  "3FE34C1E4082": {
+    "message": "Settings"
+  },
+  "10790BDE24A5": {
+    "message": "Theme"
+  },
+  "DBC2203AB684": {
+    "message": "Automatic"
+  },
+  "2EA7593D6E2A": {
+    "message": "Light"
+  },
+  "E8963232CDF0": {
+    "message": "Dark"
+  },
+  "F3E3EBFBB7EF": {
+    "message": "Background Color"
+  },
+  "AC16E85FC79F": {
+    "message": "Default"
+  },
+  "F8E60B5329E3": {
+    "message": "Background Image Settings"
+  },
+  "2A7A2B97CE83": {
+    "message": "Background Image"
+  },
+  "E7740714E146": {
+    "message": "Choose Image"
+  },
+  "81D6B4A14E56": {
+    "message": "Remove"
+  },
+  "2BE9520628EF": {
+    "message": "Center"
+  },
+  "8EAD7FBEF648": {
+    "message": "Cover"
+  },
+  "19FB15193610": {
+    "message": "Repeat"
+  },
+  "F091C7551507": {
+    "message": "Max"
+  },
+  "D1EEA69A2DF4": {
+    "message": "Size"
+  },
+  "8B1860453CA0": {
+    "message": "Brightness"
+  },
+  "D65DEDBFAE74": {
+    "message": "Contrast"
+  },
+  "4582989714DC": {
+    "message": "Hue"
+  },
+  "5420E715F807": {
+    "message": "Grayscale"
+  },
+  "BB167B4D620A": {
+    "message": "Blur"
+  },
+  "16A2FD8A2DC5": {
+    "message": "Advanced"
+  },
+  "1A3297AE0050": {
+    "message": "Tired of accidentally closing tabs or the browser window when closing the last tab? Configure the alternative Close Tab shortcut to avoid this frustration."
+  },
+  "EDA934F9B769": {
+    "message": "Close Tab shortcut"
+  },
+  "DDC7FCEF15FC": {
+    "message": "Not configured"
+  },
+  "BFB193D68D63": {
+    "message": "Prevent closing pinned tabs"
+  },
+  "19091FBBCABC": {
+    "message": "Prevent closing tabs within tab groups"
+  },
+  "29D8356565D5": {
+    "message": "Dim settings when inactive"
+  },
+  "D65F9B43AB64": {
+    "message": "Restore default background color"
+  },
+  "844EEF857F59": {
+    "message": "Restore"
+  },
+  "C0424E559A00": {
+    "message": "Image is too large. Try again with an image under 8 MB."
+  },
+  "79D0EF9D2054": {
+    "message": "Do you want to remove the background image?"
+  },
+  "5EC0C7595A59": {
+    "message": "Do you want to restore the default background color?"
+  }
+}
