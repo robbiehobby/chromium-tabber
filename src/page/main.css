@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base() {
+  label {
+    @apply block;
+  }
+}
+
+@layer components {
+  .text-ghost {
+    @apply text-gray-500;
+  }
+
+  .link {
+    @apply no-underline text-gray-500 hover:text-primary;
+  }
+
+  .dropdown-toggle {
+    @apply btn btn-md btn-info rounded-full mb-3 p-2 h-auto min-h-0 shadow-xl;
+  }
+
+  .dropdown-toggle.dim {
+    @apply grayscale opacity-40;
+  }
+
+  :is(.dropdown-toggle.dim:hover, details[open] .dropdown-toggle.dim) {
+    @apply grayscale-0 opacity-100;
+  }
+
+  .control {
+    @apply p-4 border border-neutral rounded-md transition text-sm text-ghost;
+  }
+
+  .control-label {
+    @apply flex items-center gap-2 text-base-content;
+  }
+
+  .label {
+    @apply gap-3;
+  }
+
+  label.control:focus-within {
+    @apply border-primary;
+  }
+
+  .select {
+    @apply select-xs bg-none bg-transparent h-auto min-h-0 p-0 w-full text-sm text-right border-0 focus:outline-none;
+  }
+
+  .toggle {
+    @apply toggle-primary toggle-xs;
+  }
+
+  .range {
+    @apply range-xs range-primary;
+  }
+
+  .range-label {
+    @apply flex w-full justify-between items-center mb-2 text-base-content font-medium;
+  }
+
+  .range-indicator {
+    @apply min-w-16 text-gray-500 text-right;
+  }
+
+  .collapse {
+    @apply border border-neutral rounded-md;
+  }
+
+  .collapse-title {
+    @apply p-4 min-h-0 text-sm text-ghost;
+  }
+
+  .collapse-content {
+    @apply !py-0 px-4 text-sm leading-relaxed;
+  }
+
+  .collapse-content .label {
+    @apply border-t border-neutral -mx-4 p-4;
+  }
+
+  details .collapse[open] .collapse-title {
+    @apply text-secondary;
+  }
+
+  .btn {
+    @apply btn-xs rounded-sm cursor-pointer;
+  }
+
+  .btn-xs {
+    @apply h-auto min-h-0 py-0.5;
+  }
+
+  .join {
+    @apply border border-primary mt-1 mb-6 w-full rounded-sm;
+  }
+
+  .join-item {
+    @apply btn btn-xs grow font-normal;
+  }
+
+  .lucide {
+    @apply w-5 h-5 fill-none stroke-current stroke-2 stroke-linecap stroke-linejoin;
+  }
+
+  .lucide-sm {
+    @apply w-3 h-3;
+  }
+}
+
+@layer utilities {
+  .outline-none {
+    outline: none !important;
+  }
+
+  .stroke-linecap {
+    stroke-linecap: round;
+  }
+
+  .stroke-linejoin {
+    stroke-linejoin: round;
+  }
+}
